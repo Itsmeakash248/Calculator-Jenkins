@@ -1,8 +1,7 @@
-a = 10
-b = 20
+import sys
 
-sum = a + b
-sub = b - a
+a = int(sys.argv[1])
+b = int(sys.argv[2])
 
-print("Addition: ", sum)
-print("Subtraction: ", sub)
+print("Addition:", a + b)
+print("Subtraction:", a - b)
